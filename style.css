@@ -1,0 +1,39 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #1b60df;
+  overflow-y: hidden;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+}
+
+#canvasContainer {
+  display: flex;
+  flex-direction: column-reverse;
+  margin: 0 auto;
+  width: 80%;
+  max-width: 600px;
+  text-align: center;
+}
+
+
+#captureButton {
+  display: block;
+  margin: 10px auto;
+  padding: 10px 20px;
+  background-color: white ;
+  color: #1b60df;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+  font-weight: bold;
+  transition: transform 0.3s ease;
+}
+
+button:hover {
+    transform: translateY(3px);
+}
+
